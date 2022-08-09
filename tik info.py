@@ -1,6 +1,48 @@
-import requests,re
-from re import search
-from colorama import Fore
+import os
+clear = lambda: os.system('cls')
+clear()
+try:
+ 
+    import requests
+ 
+    
+except ImportError: 
+ 
+    print("No module named 'requests' found")
+    try:
+      os.system('pip install requests')
+    except :
+      print("pip install requests")
+      input("Enter For Exit")
+   
+try:
+ 
+    from re import search
+ 
+    
+except ImportError:
+ 
+    print("No module named 're' found")
+    try:
+      os.system('pip install re')
+    except :
+      print("pip install re")
+      input("Enter For Exit") 
+   
+   
+try:
+ 
+    from colorama import Fore
+ 
+    
+except ImportError:
+ 
+    print("No module named 'colorama' found")
+    try:
+      os.system('pip install colorama')
+    except :
+      print("pip install colorama")
+      input("Enter For Exit") 
 print("""
 ╔╦═╦╦═╦═╗╔══╦╦╦╗╔══╦═╦╦╗ 𝐵𝑦 6G7R 
 ║║║║║╔╣║║╚╗╔╣║═╣╚╗╔╣║║═╣  Insta @6g7r
